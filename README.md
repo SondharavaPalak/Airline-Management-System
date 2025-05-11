@@ -66,23 +66,6 @@ The system uses a MySQL database named `airline_management` with the following k
 - Java Development Kit (JDK) 8 or later
 - MySQL Server 5.7+
 - MySQL Connector/Jar
-
-### Setup Instructions
-
-1. **Database Configuration**:
-   - Create a MySQL database named `airline_management`
-   - Import the provided SQL schema file
-   - Update connection details in `DatabaseConnection.java`:
-     ```java
-     public static String URL = "jdbc:mysql://localhost:3306/airline_management";
-     public static String USER = "root"; 
-     public static String PASSWORD = "your_password";
-     ```
-
-2. **Running the Application**:
-   - Compile all Java files
-   - Run `AirlineManagementSystem.java` as the main entry point
-
 ## Usage Guide
 
 ### Default Credentials
